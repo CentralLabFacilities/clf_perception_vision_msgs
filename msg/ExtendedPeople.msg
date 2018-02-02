@@ -1,2 +1,2 @@
 Header header
-clf_perception_vision/ExtendedPersonStamped[] persons
+clf_perception_vision_msgs/ExtendedPersonStamped[] persons

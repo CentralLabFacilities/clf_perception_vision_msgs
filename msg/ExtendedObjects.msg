@@ -1,2 +1,2 @@
 Header header
-clf_perception_vision/ExtendedObjectsStamped[] objects
+clf_perception_vision_msgs/ExtendedObjectsStamped[] objects

@@ -35,8 +35,7 @@ ADD_SERVICE_FILES(
 
 GENERATE_MESSAGES(DEPENDENCIES geometry_msgs std_msgs)
 
-CATKIN_PACKAGE(INCLUDE_DIRS include
-               # LIBRARIES clf_perception_nodelets
+CATKIN_PACKAGE(
                CATKIN_DEPENDS tf
                               roscpp
                               nodelet
@@ -49,6 +48,3 @@ CATKIN_PACKAGE(INCLUDE_DIRS include
                               image_transport
 )
 
-
-CATKIN_INSTALL_PYTHON(PROGRAMS src/python/clf_perception_box2people.py DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION})
-CATKIN_INSTALL_PYTHON(PROGRAMS src/python/clf_perception_box2objects.py DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION})
