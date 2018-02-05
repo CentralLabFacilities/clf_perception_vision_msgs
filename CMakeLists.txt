@@ -4,17 +4,15 @@ CMAKE_MINIMUM_REQUIRED(VERSION 2.8.3)
 
 PROJECT(clf_perception_vision_msgs)
 
-FIND_PACKAGE(catkin REQUIRED COMPONENTS tf
-                                        roscpp
-                                        nodelet
+FIND_PACKAGE(catkin REQUIRED COMPONENTS roscpp
                                         std_msgs
-                                        cv_bridge
-                                        sensor_msgs
-                                        geometry_msgs
-                                        message_filters
-                                        image_transport
-                                        visualization_msgs
                                         message_generation
+                                        message_filters
+                                        sensor_msgs
+                                        message_runtime
+                                        geometry_msgs
+                                        people_msgs
+                                        visualization_msgs
 )
 
 ADD_MESSAGE_FILES(
@@ -31,20 +29,19 @@ ADD_SERVICE_FILES(
    FILES
    DoIKnowThatPerson.srv
    LearnPerson.srv
+   MoodOfPerson.srv
 )
 
 GENERATE_MESSAGES(DEPENDENCIES geometry_msgs std_msgs)
 
-CATKIN_PACKAGE(
-               CATKIN_DEPENDS tf
-                              roscpp
-                              nodelet
+CATKIN_PACKAGE(CATKIN_DEPENDS roscpp
                               std_msgs
-                              cv_bridge
-                              sensor_msgs
-                              geometry_msgs
+                              message_generation
                               message_filters
+                              sensor_msgs
                               message_runtime
-                              image_transport
+                              geometry_msgs
+                              people_msgs
+                              visualization_msgs
 )
 
