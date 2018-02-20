@@ -20,6 +20,7 @@ ADD_MESSAGE_FILES(
    FILES
    ExtendedPersonStamped.msg
    ExtendedObjectsStamped.msg
+   ExtendedPoseArray.msg
    ExtendedPeople.msg
    ExtendedObjects.msg
 )
