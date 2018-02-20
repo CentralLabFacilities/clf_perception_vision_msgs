@@ -33,7 +33,7 @@ ADD_SERVICE_FILES(
    MoodOfPerson.srv
 )
 
-GENERATE_MESSAGES(DEPENDENCIES geometry_msgs std_msgs)
+GENERATE_MESSAGES(DEPENDENCIES geometry_msgs std_msgs sensor_msgs people_msgs visualization_msgs)
 
 CATKIN_PACKAGE(CATKIN_DEPENDS roscpp
                               std_msgs
