@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
   <name>clf_perception_vision_msgs</name>
-  <version>0.0.3</version>
+  <version>0.0.4</version>
   <description> Messages for Robotics perception pipeline
                 using OpenCV, CUDA, Caffee, Dlib and YOLO.
   </description>

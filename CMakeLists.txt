@@ -31,6 +31,8 @@ ADD_SERVICE_FILES(
    DoIKnowThatPerson.srv
    LearnPerson.srv
    MoodOfPerson.srv
+   LearnPersonImage.srv
+   DoIKnowThatPersonImage.srv
 )
 
 GENERATE_MESSAGES(DEPENDENCIES geometry_msgs std_msgs sensor_msgs people_msgs visualization_msgs)

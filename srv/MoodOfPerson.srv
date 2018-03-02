@@ -1,6 +1,6 @@
-#request fields
+# request fields
 string transform_id
 ---
-#response fields
+# response fields
 bool success
 string mood
