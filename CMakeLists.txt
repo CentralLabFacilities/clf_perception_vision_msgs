@@ -23,6 +23,7 @@ ADD_MESSAGE_FILES(
    ExtendedPoseArray.msg
    ExtendedPeople.msg
    ExtendedObjects.msg
+   CMTrackerResults.msg
 )
 
 ADD_SERVICE_FILES(
@@ -33,6 +34,8 @@ ADD_SERVICE_FILES(
    MoodOfPerson.srv
    LearnPersonImage.srv
    DoIKnowThatPersonImage.srv
+   CMTObjectTrack.srv
+   CMTStopObjectTrack.srv
 )
 
 GENERATE_MESSAGES(DEPENDENCIES geometry_msgs std_msgs sensor_msgs people_msgs visualization_msgs)
