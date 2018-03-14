@@ -1,0 +1,7 @@
+# request fields
+sensor_msgs/Image img
+---
+# response fields
+bool success
+string[] gender
+string[] age
