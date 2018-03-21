@@ -1,0 +1,6 @@
+sensor_msgs/Image image
+---
+int16 xmin
+int16 width
+int16 ymin
+int16 height
