@@ -29,7 +29,6 @@ ADD_MESSAGE_FILES(
 ADD_SERVICE_FILES(
    DIRECTORY srv
    FILES
-   GetFaceBB.srv
    ImageToPose.srv
    DoIKnowThatPerson.srv
    LearnPerson.srv
