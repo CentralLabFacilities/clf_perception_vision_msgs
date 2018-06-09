@@ -37,6 +37,7 @@ ADD_SERVICE_FILES(
    CMTObjectTrack.srv
    CMTStopObjectTrack.srv
    ClassifyGenderAgeImage.srv
+   ToggleCFtldTrackingWithBB.srv
 )
 
 GENERATE_MESSAGES(DEPENDENCIES geometry_msgs std_msgs sensor_msgs people_msgs visualization_msgs)
