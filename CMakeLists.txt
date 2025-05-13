@@ -43,7 +43,7 @@ GENERATE_MESSAGES(DEPENDENCIES geometry_msgs std_msgs sensor_msgs people_msgs vi
 
 CATKIN_PACKAGE(CATKIN_DEPENDS 
                               std_msgs
-                              message_generation
+                              
                               
                               sensor_msgs
                               geometry_msgs
