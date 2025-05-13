@@ -41,7 +41,7 @@ ADD_SERVICE_FILES(
 
 GENERATE_MESSAGES(DEPENDENCIES geometry_msgs std_msgs sensor_msgs people_msgs visualization_msgs)
 
-CATKIN_PACKAGE(CATKIN_DEPENDS roscpp
+CATKIN_PACKAGE(CATKIN_DEPENDS 
                               std_msgs
                               message_generation
                               
