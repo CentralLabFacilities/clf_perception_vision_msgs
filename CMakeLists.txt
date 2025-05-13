@@ -4,10 +4,9 @@ CMAKE_MINIMUM_REQUIRED(VERSION 2.8.3)
 
 PROJECT(clf_perception_vision_msgs)
 
-FIND_PACKAGE(catkin REQUIRED COMPONENTS roscpp
+FIND_PACKAGE(catkin REQUIRED COMPONENTS
                                         std_msgs
                                         message_generation
-                                        message_filters
                                         sensor_msgs
                                         message_runtime
                                         geometry_msgs
@@ -45,9 +44,8 @@ GENERATE_MESSAGES(DEPENDENCIES geometry_msgs std_msgs sensor_msgs people_msgs vi
 CATKIN_PACKAGE(CATKIN_DEPENDS roscpp
                               std_msgs
                               message_generation
-                              message_filters
+                              
                               sensor_msgs
-                              message_runtime
                               geometry_msgs
                               people_msgs
                               visualization_msgs
